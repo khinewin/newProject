@@ -1,0 +1,78 @@
+.navBar {
+    width: 100%;
+    height: 40px;
+    background: brown;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav li {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    border-right: 1px solid;
+}
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+}
+.nav li a:hover {
+    background: saddlebrown;
+}
+#appTitle{
+    font-size: 14px;
+    color: yellow;
+
+}
+.container {
+    width:1000px;
+    margin: 0 auto;
+
+}
+.regForm {
+
+    width: 400px;
+    margin: 20px auto;
+    padding: 40px;
+
+}
+.pageBody h1 {
+    padding: 5px;
+    color: red;
+    font-size: 30px;
+    margin: 5px auto;
+    width: 400px;
+    text-align: center;
+    font-style: oblique;
+}
+.regForm label {
+    font-size: 16px;
+    color: #000;
+}
+.regForm input[type=text],[type=email],[type=password],[type=tel]
+{
+    width: 100%;
+    height: 20px;
+}
+.regForm #btnSignup {
+    width: 100px;
+    height: 40px;
+    color: #000;
+    background: dodgerblue;
+    border-radius: 5px;
+}
+.formBlock {
+    margin-bottom: 5px;
+}
+.video {
+    width: 600px;
+    margin: 20px auto;
+}
